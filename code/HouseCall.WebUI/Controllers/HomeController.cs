@@ -15,14 +15,15 @@ namespace MyGreatCourseProject.WebUI.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. TEST TEST :)";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "If you need assistance please reach me using the following" +
+                              " information:";
 
             return View();
         }
