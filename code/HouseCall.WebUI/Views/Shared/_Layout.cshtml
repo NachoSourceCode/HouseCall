@@ -20,9 +20,11 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("House Call", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "About")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Bookings", "Bookings", "Home")</li>
+                    <li>@Html.ActionLink("Services", "Services", "Home")</li>
                 </ul>
             </div>
         </div>
@@ -31,7 +33,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - HouseCall - Matthew Slone</p> <!--Copyright/Year/App Name Footer on the Home page.-->
+            <p>&copy; @DateTime.Now.Year - House Call - Matthew Slone</p> <!--Copyright/Year/App Name Footer on the Home page.-->
         </footer>
     </div>
 

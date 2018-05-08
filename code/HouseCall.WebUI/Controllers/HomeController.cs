@@ -13,13 +13,6 @@ namespace MyGreatCourseProject.WebUI.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page. TEST TEST :)";
-
-            return View();
-        }
-
         public ActionResult Contact()
         {
             ViewBag.Message = "If you need assistance please reach me using the following" +

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HouseCall.Domain
+namespace HouseCall.WebUI.Models
 {
-    class Payment
+    class ServiceProfessionals
     {
 
     }
