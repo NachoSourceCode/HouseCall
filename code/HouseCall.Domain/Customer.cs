@@ -13,24 +13,6 @@ namespace HouseCall.Domain
             throw new NotImplementedException();
 
         }
-
-        void ServiceRequest()
-        {
-
-            throw new NotImplementedException();
-
-        }
-
-        void ServiceOffer()
-        {
-
-            throw new NotImplementedException();
-
-        }
-
-        void Booking()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

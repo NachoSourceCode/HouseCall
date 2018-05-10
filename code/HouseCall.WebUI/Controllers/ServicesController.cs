@@ -8,14 +8,14 @@ using MyGreatCourseProject.WebUI.Models;
 
 namespace MyGreatCourseProject.WebUI.Controllers
 {
-    public class SevicesController : Controller
+    public class ServicesController : Controller
     {
         // GET: Sevices
-        public ViewResult Random()
+        public ActionResult Services()
         {
-            var service = new Services();
+            ViewBag.Message = "This is text from the services controller and the page layout comes from the view.";
             return View();
-            //return HttpNotFoundResult();
+            
         }
     }
 }

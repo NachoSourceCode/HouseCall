@@ -9,22 +9,30 @@
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container"> <!--Top Horizontal Banner-->
+        <div class="container">
+            <!--Top Horizontal Banner-->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               
+
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("House Call", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Bookings", "Bookings", "Bookings")</li>
+                    <li>@Html.ActionLink("Services", "Services", "Services")</li>
                     <li>@Html.ActionLink("About", "About", "About")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Bookings", "Bookings", "Home")</li>
-                    <li>@Html.ActionLink("Services", "Services", "Home")</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="@Url.Action("Register","Register")"><span class="glyphicon glyphicon-user"></span> Signup</a></li>
+                    <li><a href="@Url.Action("Login","Login")"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Services - Cleaning</a></li>
                 </ul>
             </div>
         </div>
@@ -33,7 +41,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - House Call - Matthew Slone</p> <!--Copyright/Year/App Name Footer on the Home page.-->
+            <p>&copy; @DateTime.Now.Year - House Call</p> <!--Copyright/Year/App Name Footer on the Home page.-->
         </footer>
     </div>
 
