@@ -13,7 +13,7 @@ namespace MyGreatCourseProject.WebUI.Controllers
         // GET: Sevices
         public ActionResult Services()
         {
-            ViewBag.Message = "This is text from the services controller and the page layout comes from the view.";
+            ViewBag.Message = "Select from a wide range of service professionals.";
             return View();
             
         }

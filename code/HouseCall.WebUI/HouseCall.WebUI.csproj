@@ -168,6 +168,10 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Media\Photos\Services_Cleaning.jpg" />
+    <Content Include="Media\Photos\Services_Electrical.jpg" />
+    <Content Include="Media\Photos\Services_Handyman.jpg" />
+    <Content Include="Media\Photos\Services_Haulaway.jpg" />
+    <Content Include="Media\Photos\Services_Plumbing.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
