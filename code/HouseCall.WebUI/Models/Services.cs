@@ -7,7 +7,8 @@ namespace MyGreatCourseProject.WebUI.Models
 {
     public class Services
     {
-        public string Industry { get; set; }
+        enum Industries { Plumbing, Cleaning, Handyman, Electrical, Haulaway };
+        
         public string TradeDescription { get; set; }
     }
     //Services/Industry
