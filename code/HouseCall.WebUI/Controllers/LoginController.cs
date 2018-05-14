@@ -11,7 +11,7 @@ namespace MyGreatCourseProject.WebUI.Controllers
         // GET: Login
         public ActionResult Login()
         {
-            ViewBag.Message = "This message is from the Login controller.";
+            ViewBag.Message = "Please enter your credentials.";
             return View();
         }
     }

@@ -22,3 +22,20 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* Override the default navbar color */
+.navbar-custom-bg {
+    background-color: cadetblue;
+}
+
+.text-link {
+    color: #0d23f1;
+}
+
+.nav-tabs > li > a {
+    color: darkslategrey;
+}
+
+.nav-tabs > li > a:hover{
+    color: black;
+}

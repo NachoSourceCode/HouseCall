@@ -8,7 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-custom-bg">
         <div class="container">
             <!--Top Horizontal Banner-->
             <div class="navbar-header">
@@ -23,9 +23,9 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Fixit", "Index", "Home")</li>
                     <li>@Html.ActionLink("Bookings", "Bookings", "Bookings")</li>
-                    <li>@Html.ActionLink("Services", "Services", "Services")</li>
+                    <li>@Html.ActionLink("Services", "Services", "Services", null, new { style = "padding-right:0;" })</li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" style="padding-left:0;">&nbsp;<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header">INDUSTRIES:</li>
                             <li class="divider"></li>

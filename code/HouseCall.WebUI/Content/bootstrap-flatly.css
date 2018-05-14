@@ -1424,12 +1424,12 @@ textarea {
     font-size: inherit;
     line-height: inherit;
 }
-
+/* Modify link text */
 a {
     color: #18bc9c;
     text-decoration: none;
 }
-
+/* Modify link hover color */
     a:hover,
     a:focus {
         color: #18bc9c;

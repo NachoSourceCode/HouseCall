@@ -11,7 +11,7 @@ namespace MyGreatCourseProject.WebUI.Controllers
         // GET: Register
         public ActionResult Register()
         {
-            ViewBag.Message = "This is message is from the register controller.";
+            ViewBag.Message = "Please choose the type of user account you would like to set up.";
             return View();
         }
     }
