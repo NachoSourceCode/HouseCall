@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HouseCall.WebUI.Models
+namespace HouseCall.Domain.DAL
 {
-    class Payment
+    class UserContext
     {
 
     }
