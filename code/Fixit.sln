@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseCall.WebUI", "HouseCall.WebUI\HouseCall.WebUI.csproj", "{A4A75087-BDA2-46FE-950F-217F3B4C3291}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixit.WebUI", "Fixit.WebUI\Fixit.WebUI.csproj", "{A4A75087-BDA2-46FE-950F-217F3B4C3291}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseCall.Domain", "HouseCall.Domain\HouseCall.Domain.csproj", "{8A0250CE-8DB6-49CE-B18C-31D79948579D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixit.Test", "Fixit.Test\Fixit.Test.csproj", "{BBEBA18E-CDCD-4E49-8988-EB2781C3EB00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseCall.Test", "HouseCall.Test\HouseCall.Test.csproj", "{BBEBA18E-CDCD-4E49-8988-EB2781C3EB00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixit.Domain", "Fixit.Domain\Fixit.Domain.csproj", "{7C010D26-C0D7-4863-BFD3-19CFE33809D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{A4A75087-BDA2-46FE-950F-217F3B4C3291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4A75087-BDA2-46FE-950F-217F3B4C3291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4A75087-BDA2-46FE-950F-217F3B4C3291}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A0250CE-8DB6-49CE-B18C-31D79948579D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A0250CE-8DB6-49CE-B18C-31D79948579D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A0250CE-8DB6-49CE-B18C-31D79948579D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A0250CE-8DB6-49CE-B18C-31D79948579D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BBEBA18E-CDCD-4E49-8988-EB2781C3EB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BBEBA18E-CDCD-4E49-8988-EB2781C3EB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBEBA18E-CDCD-4E49-8988-EB2781C3EB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBEBA18E-CDCD-4E49-8988-EB2781C3EB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C010D26-C0D7-4863-BFD3-19CFE33809D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C010D26-C0D7-4863-BFD3-19CFE33809D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C010D26-C0D7-4863-BFD3-19CFE33809D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C010D26-C0D7-4863-BFD3-19CFE33809D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
