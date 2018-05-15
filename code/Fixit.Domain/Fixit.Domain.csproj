@@ -47,6 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Booking.cs" />
+    <Compile Include="Models\ServiceOffer.cs" />
+    <Compile Include="Models\ServiceRequest.cs" />
+    <Compile Include="Models\Technician.cs" />
+    <Compile Include="Models\TechnicianCompany.cs" />
+    <Compile Include="Models\Trade.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="UserContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

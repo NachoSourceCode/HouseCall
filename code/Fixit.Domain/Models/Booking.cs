@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyGreatCourseProject.WebUI.Models
+namespace Fixit.WebUI.Models
 {
-    class Bookings
+    public class Booking
     {
         public int BookingID { get; set; }
         public int UserRating { get; set; }

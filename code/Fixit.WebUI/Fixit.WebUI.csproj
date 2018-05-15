@@ -157,13 +157,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Booking.cs" />
-    <Compile Include="Models\ServiceOffer.cs" />
-    <Compile Include="Models\ServiceRequest.cs" />
-    <Compile Include="Models\Technician.cs" />
-    <Compile Include="Models\TechnicianCompany.cs" />
-    <Compile Include="Models\Trade.cs" />
-    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -194,9 +187,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="HouseCall Files\ERD Diagram.pdf" />
-    <Content Include="HouseCall Files\Requirements.docx" />
-    <Content Include="HouseCall Files\Structure.docx" />
+    <Content Include="Fixit Files\ERD Diagram.pdf" />
+    <Content Include="Fixit Files\Requirements.docx" />
+    <Content Include="Fixit Files\Structure.docx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -229,10 +222,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fixit.Domain\Fixit.Domain.csproj">
+      <Project>{7c010d26-c0d7-4863-bfd3-19cfe33809d8}</Project>
+      <Name>Fixit.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

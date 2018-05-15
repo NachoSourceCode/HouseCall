@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace MyGreatCourseProject.WebUI.Models
+namespace Fixit.WebUI.Models
 {
     public class User
     {
