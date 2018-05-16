@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Fixit.WebUI.Models
+namespace Fixit.Domain.Models
 {
     public class TechnicianCompany
     {
-        public char CompanyName { get; set; }
-        public char StreetName { get; set; }
+        public string CompanyName { get; set; }
+        public string StreetName { get; set; }
         public string CityName { get; set; }
         public int Zip { get; set; }
 

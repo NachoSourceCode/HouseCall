@@ -36,6 +36,6 @@ textarea {
     color: darkslategrey;
 }
 
-.nav-tabs > li > a:hover{
-    color: black;
-}
+    .nav-tabs > li > a:hover {
+        color: black;
+    }

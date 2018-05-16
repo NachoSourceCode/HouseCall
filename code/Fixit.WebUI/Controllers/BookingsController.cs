@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MyGreatCourseProject.WebUI.Controllers
+namespace Fixit.WebUI.Controllers
 {
     public class BookingsController : Controller
     {

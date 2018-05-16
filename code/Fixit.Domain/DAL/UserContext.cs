@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Data.Entity;
 
-using Fixit.WebUI.Models;
+using Fixit.Domain.Models;
 
-namespace Fixit.Domain
+namespace Fixit.Domain.DAL
 {
     public class UserContext : DbContext
     {
@@ -24,6 +24,8 @@ namespace Fixit.Domain
         public DbSet<ServiceOffer> ServiceOffers { get; set; }
         public DbSet<Technician> Technicians { get; set; }
         public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Trade> Trades { get; set; }
+        public DbSet<TechnicianCompany> TechniciansCompany { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Fixit.WebUI.Models
+namespace Fixit.Domain.Models
 {
     public class Trade
     {
-        public char Industry { get; set; }
-        public char TradeDescription { get; set; }
+        public string Industry { get; set; }
+        public string TradeDescription { get; set; }
 
         //Navigation property
         public virtual ICollection<Technician> Technicians { get; set; }

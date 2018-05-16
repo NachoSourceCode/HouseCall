@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Fixit.WebUI.Models
+namespace Fixit.Domain.Models
 {
     public class ServiceRequest
     {
         public int ServiceRequestID { get; set; }
         public DateTime DateAndTime { get; set; }
-        public char RequirementDescription { get; set; }
+        public string RequirementDescription { get; set; }
 
         //Navigation properties
         public virtual ICollection<ServiceOffer> ServiceOffers { get; set; }

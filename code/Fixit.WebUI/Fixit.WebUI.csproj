@@ -169,6 +169,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Media\Photos\Index_Home3.jpg" />
+    <Content Include="Media\Photos\Index_Home2.jpg" />
+    <Content Include="Media\Photos\index_HomeAutumn.jpg" />
+    <Content Include="Media\Photos\Index_HomeSpring.jpg" />
+    <Content Include="Media\Photos\index_HomeSummer.jpg" />
+    <Content Include="Media\Photos\index_HomeWinter.jpg" />
     <Content Include="Media\Photos\Services_Cleaning.jpg" />
     <Content Include="Media\Photos\Services_Electrical.jpg" />
     <Content Include="Media\Photos\Services_Handyman.jpg" />

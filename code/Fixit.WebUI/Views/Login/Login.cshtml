@@ -6,31 +6,62 @@
 <h5>@ViewBag.Message</h5>
 
 <br />
-<div class="tab-content row" >
-    <div class="col-lg-4" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" style="color:#0d23f1">
-            <li class="active"><a href="#User" data-toggle="tab">User</a></li>
-            <li><a href="#Professional" data-toggle="tab">Professional</a></li>
-        </ul>
-        <div class="form-group">
-            <label for="inputlg">Username:</label>
-            <input class="form-control input-sm" id="inputlg" type="text">
-        </div>
 
-        <div class="form-group">
-            <label for="inputlg">Password:</label>
-            <input class="form-control input-sm" id="inputlg" type="text">
-        </div>
+<div>
 
-        <div class="checkbox">
-            <label><input type="checkbox" />Remember me</label>
-        </div>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#User" aria-controls="User" role="tab" data-toggle="tab">User</a></li>
+        <li role="presentation"><a href="#Professional" aria-controls="Professional" role="tab" data-toggle="tab">Professional</a></li>
+    </ul>
+    
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="User">
+                <div class="form-group">
+                    <label for="inputlg">Username:</label>
+                    <input class="form-control input-sm" id="inputlg" type="text">
+                </div>
 
-        <br>
+                <div class="form-group">
+                    <label for="inputlg">Password:</label>
+                    <input class="form-control input-sm" id="inputlg" type="text">
+                </div>
 
-        <div class="btn-group-lg">
-            <button type="button" class="btn btn-success">Submit</button>
+                <div class="checkbox">
+                    <label><input type="checkbox" />Remember me</label>
+                </div>
+
+                <br>
+
+                <div class="btn-group-lg">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+                
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="Professional">
+                <div class="form-group">
+                    <label for="inputlg">Username:</label>
+                    <input class="form-control input-sm" id="inputlg" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputlg">Password:</label>
+                    <input class="form-control input-sm" id="inputlg" type="text">
+                </div>
+
+                <div class="checkbox">
+                    <label><input type="checkbox" />Remember me</label>
+                </div>
+
+                <br>
+
+                <div class="btn-group-lg">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              
+            </div>
         </div>
     </div>
-</div>
+

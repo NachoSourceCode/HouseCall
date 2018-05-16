@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MyGreatCourseProject.Test
+namespace Fixit.Test
 {
     [TestClass]
     public class UnitTest1
