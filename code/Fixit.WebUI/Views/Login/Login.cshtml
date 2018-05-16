@@ -2,6 +2,10 @@
     ViewBag.Title = "Login";
 }
 
+<head>
+    <script src="~/Scripts/Login.PasswordToggle.js"></script>
+</head>
+
 <h1>Login</h1>
 <h5>@ViewBag.Message</h5>
 
@@ -25,11 +29,14 @@
 
                 <div class="form-group">
                     <label for="inputlg">Password:</label>
-                    <input class="form-control input-sm" id="inputlg" type="text">
-                </div>
+                    <input class="form-control input-sm" id="myTypedPassword" type="password">
+                    <!-- An element to toggle between password visibility -->
+                    <br />
+                    <input type="checkbox" onclick="PasswordToggle()"/> Show Password
+                </div> 
 
                 <div class="checkbox">
-                    <label><input type="checkbox" />Remember me</label>
+                    <label><input type="checkbox"/>Remember me</label>
                 </div>
 
                 <br>
@@ -48,7 +55,10 @@
 
                 <div class="form-group">
                     <label for="inputlg">Password:</label>
-                    <input class="form-control input-sm" id="inputlg" type="text">
+                    <input class="form-control input-sm" id="myTypedPassword" type="password">
+                    <!-- An element to toggle between password visibility -->
+                    <br />
+                    <input type="checkbox" onclick="PasswordToggle()" /> Show Password
                 </div>
 
                 <div class="checkbox">
