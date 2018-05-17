@@ -1,5 +1,13 @@
-﻿@{
+﻿@using Fixit.Domain.Models
+@model  IEnumerable<Trade>
+
+@{
     ViewBag.Title = "Home Page";
+}
+
+@foreach (var m in Model)
+{
+<p>@m.Industry</p>
 }
 
 <div class="jumbotron">

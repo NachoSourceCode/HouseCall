@@ -14,7 +14,7 @@ namespace Fixit.Domain.DAL
     {
 
         //Constructor : Connection String
-        public UserContext() : base("UserContext")
+        public UserContext()
         {
 
         }

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace Fixit.Domain.Models
 {
     public class User
     {
+        [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int UserID { get; set; }
         public string FirstName { get; set; }

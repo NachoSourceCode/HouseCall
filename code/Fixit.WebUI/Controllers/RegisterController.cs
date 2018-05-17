@@ -11,7 +11,7 @@ namespace Fixit.WebUI.Controllers
         // GET: Register
         public ActionResult Register()
         {
-            ViewBag.Message = "Please choose the type of user account you would like to set up.";
+            ViewBag.Message = "Please fill in this form to create an account.";
             return View();
         }
     }

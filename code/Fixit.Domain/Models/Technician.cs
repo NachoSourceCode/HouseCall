@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+using System.ComponentModel.DataAnnotations;
+
 namespace Fixit.Domain.Models
 {
     public class Technician
     {
+        [Key]
         public int TechnicianID { get; set; }
         public string Licenses { get; set; }
         public string Certifications { get; set; }

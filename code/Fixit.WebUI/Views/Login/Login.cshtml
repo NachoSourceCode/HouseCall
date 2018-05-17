@@ -18,60 +18,66 @@
         <li role="presentation" class="active"><a href="#User" aria-controls="User" role="tab" data-toggle="tab">User</a></li>
         <li role="presentation"><a href="#Professional" aria-controls="Professional" role="tab" data-toggle="tab">Professional</a></li>
     </ul>
-    
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="User">
-                <div class="form-group">
-                    <label for="inputlg">Username:</label>
-                    <input class="form-control input-sm" id="inputlg" type="text">
-                </div>
 
-                <div class="form-group">
-                    <label for="inputlg">Password:</label>
-                    <input class="form-control input-sm" id="myTypedPassword" type="password">
-                    <!-- An element to toggle between password visibility -->
-                    <br />
-                    <input type="checkbox" onclick="PasswordToggle()"/> Show Password
-                </div> 
+    <!-- User Tab Content Pane -->
+    <div class="tab-content">
 
-                <div class="checkbox">
-                    <label><input type="checkbox"/>Remember me</label>
-                </div>
-
-                <br>
-
-                <div class="btn-group-lg">
-                    <button type="button" class="btn btn-primary">Submit</button>
-                </div>
-                
+        <!-- User Tab Pane -->
+        <div role="tabpanel" class="tab-pane active" id="User">
+            <div class="form-group">
+                <label for="inputlg">Username:</label>
+                <input class="form-control input-sm" id="inputlg" type="text">
             </div>
 
-            <div role="tabpanel" class="tab-pane" id="Professional">
-                <div class="form-group">
-                    <label for="inputlg">Username:</label>
-                    <input class="form-control input-sm" id="inputlg" type="text">
-                </div>
+            <div class="form-group">
+                <label for="inputlg">Password:</label>
+                <input class="form-control input-sm" id="userPassword" type="password">
 
-                <div class="form-group">
-                    <label for="inputlg">Password:</label>
-                    <input class="form-control input-sm" id="myTypedPassword" type="password">
-                    <!-- An element to toggle between password visibility -->
-                    <br />
-                    <input type="checkbox" onclick="PasswordToggle()" /> Show Password
-                </div>
+                <!-- An element to toggle between password visibility -->
+                <br />
+                <input type="checkbox" onclick="PasswordToggle('userPassword')" /> Show Password
+            </div>
 
-                <div class="checkbox">
-                    <label><input type="checkbox" />Remember me</label>
-                </div>
+            <div class="checkbox">
+                <label><input type="checkbox" />Remember me</label>
+            </div>
 
-                <br>
+            <br>
 
-                <div class="btn-group-lg">
-                    <button type="button" class="btn btn-primary">Submit</button>
-                </div>
-              
+            <div class="btn-group-lg">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+
+        </div>
+        <!-- User Tab Pane End -->
+
+        <!-- Professional Tab Pane -->
+        <div role="tabpanel" class="tab-pane" id="Professional">
+            <div class="form-group">
+                <label for="inputlg">Username:</label>
+                <input class="form-control input-sm" id="inputlg" type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="inputlg">Password:</label>
+                <input class="form-control input-sm" id="proPassword" type="password">
+                <!-- An element to toggle between password visibility -->
+                <br />
+                <input type="checkbox" onclick="PasswordToggle('proPassword')" /> Show Password
+            </div>
+
+            <div class="checkbox">
+                <label><input type="checkbox" />Remember me</label>
+            </div>
+
+            <br>
+
+            <div class="btn-group-lg">
+                <button type="button" class="btn btn-primary">Submit</button>
             </div>
         </div>
+        <!-- Professional Tab Pane -->
     </div>
+    <!-- Tab Content Pane End -->
+</div>
 
