@@ -12,7 +12,7 @@ using Fixit.Domain.Models;
 namespace Fixit.Domain.DAL
 {
     
-    public class UserInitializer : System.Data.Entity.DropCreateDatabaseAlways<UserContext>  // DropCreateDatabaseIfModelChanges<UserContext>
+    public class UserInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<UserContext>
     {
         protected override void Seed(UserContext context)
         {

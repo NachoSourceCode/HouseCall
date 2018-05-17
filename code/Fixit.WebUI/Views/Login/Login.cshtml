@@ -6,6 +6,13 @@
     <script src="~/Scripts/Login.PasswordToggle.js"></script>
 </head>
 
+<style type="text/css">
+    body {
+        background: lightgrey !important;
+    }
+    /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+
 <h1>Login</h1>
 <h5>@ViewBag.Message</h5>
 
@@ -14,7 +21,7 @@
 <div>
 
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist">
+    <ul class="nav nav-tabs"  role="tablist">
         <li role="presentation" class="active"><a href="#User" aria-controls="User" role="tab" data-toggle="tab">User</a></li>
         <li role="presentation"><a href="#Professional" aria-controls="Professional" role="tab" data-toggle="tab">Professional</a></li>
     </ul>
