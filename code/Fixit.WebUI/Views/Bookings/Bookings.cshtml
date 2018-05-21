@@ -1,4 +1,4 @@
-﻿@{ 
+﻿@{
     ViewBag.Title = "Bookings";
 }
 
@@ -9,5 +9,114 @@
     /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 </style>
 
-<h1>Bookings</h1>
-<p>Important things go here. Go to the Bookings.cshtml file to add or change. :)</p>
+<form class="form-horizontal">
+    <fieldset>
+        <!-- Form Name -->
+        <h1>Bookings Form</h1>
+        <p>Please fill out the following information.</p>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookdate">Date</label>
+            <div class="col-md-8">
+                <input id="bookdate" name="bookdate" type="text" placeholder="date" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="coname">COMPANY / CLIENT NAME</label>
+            <div class="col-md-8">
+                <input id="coname" name="coname" type="text" placeholder="name" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="booktype">EVENT TYPE / PURPOSE</label>
+            <div class="col-md-8">
+                <input id="booktype" name="booktype" type="text" placeholder="type" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookguests">NUMBER OF GUESTS</label>
+            <div class="col-md-8">
+                <input id="bookguests" name="bookguests" type="text" placeholder="guests" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookmin">AGREED MINIMUM SPEND*</label>
+            <div class="col-md-8">
+                <input id="bookmin" name="bookmin" type="text" placeholder="$" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookstart">START TIME</label>
+            <div class="col-md-8">
+                <input id="bookstart" name="bookstart" type="text" placeholder="time" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookfin">FINISH TIME</label>
+            <div class="col-md-8">
+                <input id="bookfin" name="bookfin" type="text" placeholder="finish" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookname">NAME</label>
+            <div class="col-md-8">
+                <input id="bookname" name="bookname" type="text" placeholder="name" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookmobile">MOBILE</label>
+            <div class="col-md-8">
+                <input id="bookmobile" name="bookmobile" type="text" placeholder="mobile" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="booktel">TELEPHONE</label>
+            <div class="col-md-8">
+                <input id="booktel" name="booktel" type="text" placeholder="telephone" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookeml">EMAIL</label>
+            <div class="col-md-8">
+                <input id="bookeml" name="bookeml" type="text" placeholder="email" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!-- Textarea -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="bookaddress">POSTAL ADDRESS</label>
+            <div class="col-md-4">
+                <textarea class="form-control" id="bookaddress" name="bookaddress"></textarea>
+            </div>
+        </div>
+    </fieldset>
+    <div class="btn-group-lg">
+        <button type="button" class="btn btn-primary btn-block">Submit</button>
+    </div>
+    <div class="col-md-6">
+        <p>
+            ** Once filled out, the appropriate technician will reach out to you. **
+        </p>
+    </div>
+</form>

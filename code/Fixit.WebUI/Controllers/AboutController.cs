@@ -11,7 +11,7 @@ namespace Fixit.WebUI.Controllers
         // GET: About | Action Name.
         public ViewResult About()
         {
-            ViewBag.Message = "Your application description page. TEST TEST :)";
+            ViewBag.Message = "A Little About us:";
 
             return View();
         }
